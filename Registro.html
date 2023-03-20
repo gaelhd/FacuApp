@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FacuApp-Registro </title>
+    <link rel="stylesheet" href="Registro-Pantalla.css">
+    <link href="//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold" rel="stylesheet" type="text/css"/>
+    <script src="JS.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="div-logo">
+            <img class="logo" src="letra-f.png" >
+        </div>
+        <br><br><br>
+        <div class="div-Bienvenida">
+            <label class="labelBienvenida"><b>Hola Bienvenido a FacuApp!</b></label>
+        </div><br><br>
+        <div class="div-forReg">
+            <form id="formLogin">
+                <div class="div-Separar">
+                    <label class="labelRegis">Nombre</label>
+                    &nbsp;&nbsp; &nbsp; 
+                        <input id="nombreReg" type="text" required>
+                </div>    
+                <br>
+                <div class="div-Separar">
+                    <label class="labelRegis">Correo</label> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input id="correoReg" type="text" required>
+                </div>
+                <br>
+                <div class="div-Separar">
+                    <label class="labelRegis">Contraseña</label>
+                    &nbsp;
+                        <input id="contraReg" type="password" required>
+                </div>
+                <br> <br>
+                <div class="div-Separar">
+                    <input type="submit" id="btnReg" value="REGISTRAR" onclick="Registrar()">
+                </div>
+            </form>
+        </div>
+    </div>  
+</body>
+</html>

@@ -1,0 +1,24 @@
+@import url(//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+
+body{
+    background-color:#0d0d0d; 
+    padding: 10px;
+    font-family: "SoDo Sans SemiBold",Helvetica,Arial,sans-serif;
+}
+
+.contenedor{
+    background-color: #1A1A1A;
+    padding: 25px 50px 50px 5px;
+    border-radius: 10px;
+    font-family: "SoDo Sans SemiBold",Helvetica,Arial,sans-serif;
+}
+
+.labelHome{
+    color: white;
+    font-size: 15px;
+}
+
+.labelHola{
+    color: white;
+    font-size: 50px;
+}

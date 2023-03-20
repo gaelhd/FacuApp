@@ -1,0 +1,113 @@
+@import url(//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+
+body{
+    background-color:#0d0d0d; 
+    padding: 10px;
+    font-family: "SoDo Sans SemiBold",Helvetica,Arial,sans-serif;
+}
+
+.contenedor{
+    background-color: #1A1A1A;
+    padding: 25px 50px 50px 5px;
+    border-radius: 10px;
+    font-family: "SoDo Sans SemiBold",Helvetica,Arial,sans-serif;
+}
+
+.labelRegis{
+    color: white;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+.labelBienvenida{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.div-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-Bienvenida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-forReg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nombreReg{
+    outline: none;
+    border-radius: 25px;
+    width: 150px;
+    font-size: 15 px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 3px solid #1E90FF;
+    background-color: #1E90FF;
+    color: white;
+    font-weight: bold;
+}
+
+#correoReg{
+    outline: none;
+    border-radius: 25px;
+    width: 150px;
+    font-size: 15 px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 3px solid #1E90FF;
+    background-color: #1E90FF;
+    color: white;   
+    font-weight: bold;
+}
+
+#contraReg{
+    outline: none;
+    border-radius: 25px;
+    width: 150px;
+    font-size: 15 px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 3px solid #1E90FF;
+    background-color: #1E90FF;
+    color: white;     
+    font-weight: bold;
+}
+
+.div-btnRegistrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25 px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "SoDo Sans SemiBold",Helvetica,Arial,sans-serif;
+    border-color: #1E90FF;
+}
+
+.div-Separar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnReg{
+    background-color: #1E90FF;
+    border-radius: 20px;
+    padding: 5px;
+    width: 200px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
