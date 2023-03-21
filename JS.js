@@ -1,4 +1,11 @@
 
+/**/
+function IrRegistrar(){
+window.location.replace("Registro.html");
+
+}
+
+
 function Registrar(){
 /* Captura de datos del login a localStorage */
     var Correo = document.getElementById('correoReg').value;
@@ -19,6 +26,7 @@ function Registrar(){
 /* CONDICION PARA AVISAR SI SE REGISTRO CORRECTAMENTE*/
 if(correo !== "" || contra !== "" || nombre !== "" ){
     alert('Se agrego correctamente tu usuario, presione INGRESAR');
+    window.location.href="Registro.html";
 }else{
     alert('Complete los datos antes de REGISTRAR')
 }
