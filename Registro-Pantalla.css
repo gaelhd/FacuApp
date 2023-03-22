@@ -99,6 +99,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 40px;
 }
 
 #btnReg{
@@ -110,4 +111,35 @@ body{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 15px;
+}
+
+/* MEDIDAD ESTANDAR DE TELEFONO*/
+@media screen and (max-width: 980px){
+    #contenedor{
+        width: 90%;
+    }
+    #contenido{
+        width: 60%;
+    }
+
+    .labelBienvenida{
+        align-items: center;
+        text-align: left;
+    }
+
+    .div-logo{
+        height: 200px;
+    }
+
+    .logo{
+        position: absolute;
+        left: 95px;
+        width: 200px;
+        height: 200px;
+    }
+
+    #btnReg{
+        position: absolute;
+        left: 95px;
+    }
 }
