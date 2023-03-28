@@ -1,0 +1,33 @@
+body {
+    background-color: #0d0d0d;
+    padding: 10px;
+    font-family: Montserrat, sans-serif;
+}
+
+.contenedor {
+    background-color: #1A1A1A;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px;
+    font-family: Montserrat, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    width: 70%;
+}
+
+
+.button {
+    background-color: #334CFF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 30%;
+    font-family: Montserrat, sans-serif;
+
+}
