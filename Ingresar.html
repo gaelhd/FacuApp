@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FacuApp-Registro </title>
-    <link rel="stylesheet" href="Registro-Pantalla.css">
+    <title>FacuApp-Ingresar </title>
+    <link rel="stylesheet" href="Ingresar-Pantalla.css">
     <link href="//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold" rel="stylesheet" type="text/css"/>
     <script src="indexDB.js"></script>
 </head>
@@ -16,20 +16,17 @@
         </div>
         <br><br><br>
         <div class="div-Bienvenida">
-            <label class="labelBienvenida"><b>Se parte de la familia FacuApp!</b></label>
+            <label class="labelBienvenida"><b>Hola Bienvenido a FacuApp!</b></label>
         </div><br><br>
         <div class="div-forReg">
             <form>
-                <label>Nombre:</label>
-                <input type="text" id="name" required><br>
-        
                 <label>Correo:</label>
-                <input type="email" id="email" required><br>
+                <input type="email" id="loginEmail" required><br>
         
                 <label>Contraseña:</label>
-                <input type="password" id="password" required><br>
+                <input type="password" id="loginPassword" required><br>
         
-                <button type="button" onclick="saveData()">Registrarse</button>
+                <button type="button" onclick="retrieveData()">Iniciar sesión</button>
             </form>
         </div>
     </div>  
