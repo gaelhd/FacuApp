@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+}
+
+.contenedor5 {
+    background-color: #1A1A1A;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px;
+    font-family: Montserrat, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    width: 40%;
+    height: 40%;
+}
+
+/* BARRA DE NAVEGACIÓN  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #334CFF;
+    font-family: Montserrat, sans-serif;
+    align-items: center;
+    width: auto;
+    border-radius: 10px;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+ul img {
+    width: 36px;
+    height: 36px;
+    float: center;
+    padding: 7px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 980px) {
+    .contenedor5 {
+        background-color: #1A1A1A;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 15px;
+        font-family: Montserrat, sans-serif;
+        color: whitesmoke;
+        text-align: center;
+        width: 75%;
+        height: 75%;
+    }
+    ul img {
+        width: 20px;
+        height: 20px;
+        float: center;
+        padding: 7px;
+        border-radius: 100%;
+        justify-content: space-between;
+    }
+}
