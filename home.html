@@ -6,41 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FacuApp-Registro </title>
     <link rel="stylesheet" href="Home-Pantalla.css">
+    <link rel="stylesheet" href="nave.css">
     <link href="//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold" rel="stylesheet" type="text/css"/>
     <script src="indexDB.js"></script>
+    <script src="ejecutarFuncion 2.js"></script>
 </head>
 <body>
-    <div class="contenedor">
-        <label class="labelHome">Home</label><br><br>
-        <label class="labelHola"><b>Hola</b><b><br> <label id="mostrar">Gael Cantu</label></b></label><br>
-        <br><br>
-        <div class="btnHome">
-        <button class="btnGeneral">General</button> <button class="btnSecundario">Secundario</button>
+
         
-        
-        <div class="avances">
-            <label class="LabelAvance">Avance de semestre</label>
-            <p class="Descripcion">Mira el proceso que tienes </p>
-            <label class="Label%">76%</label><br>
-            <div class="imgBarra"> <img src=""></div>
+        <div class="separar">
+            <div class="divHeader">
+                <label class="labelHome">Home</label> 
+                <img src="lupa.png" class="lupa">
+                <img src="pp.jpg" class="pp"><br><br>
+                </div>
         </div>
+
+        <div class="separar2">
+            <div class="divHeader2">
+                <label class="labelHola"><b>Hola</b>
+                <label id="mostrar"></label></b></label>
+            </div>
+        </div>
+        
+        <div class="btnDis">
+            <button class="btnGeneral">General</button> 
+            <button class="btnSecundario">Secundario</button>
+        </div>
+        <br>
+        <div class="contenedor">
+        <div class="avances">
+            <div class="left"><label class="LabelAvance">Avance de semestre</label></div>
+            <div class="left"> <label class="Descripcion">Mira el proceso que tienes </label></div>
+            <div class="centrar"><img class="barraProcesos" src="barra.png"></div>
+            <div class="centrar2"><label class="LabelPor">76%</label></div>
+        </div>
+        </div>
+
+        <br>
 
         <div class="div-Categorias">
-            <div class="divHorario"></div>
-            <div class="divCorreo"></div>
-            <div class="divTramites"></div>
-            <div class="divNotificaciones"></div>
-        </div>
+            <div class="contenedorA">
+                <div class="contenedor">
+                    <img src="libro.png" class="imgCat" onclick="openHorario()">
+                    <label class="titCat">HORARIO</label>
+                    <label class="desCat">HORARIO.</label>
+                </div>
+            </div>
 
-        <div class="divMenu"></div>
-    </div>  
-</div>
+            <div class="contenedorB">
+                <div class="contenedor">
+                    <img src="archivero.png" class="imgCat">
+                    <label class="titCat">CORREO</label>
+                    <label class="desCat">2CORREOS.</label>
+                </div>
+            </div>
+
+            <div class="contenedorC">
+                <div class="contenedor">
+                    <img src="tramite.png" class="imgCat">
+                    <label class="titCat">TRAMITE</label>
+                    <label class="desCat">0TRAMITES.</label>
+                </div>
+            </div>
+        
+            <div class="contenedorD">
+                <div class="contenedor">
+                    <img src="noti.png" class="imgCat">
+                    <label class="titCat">NOTI</label>
+                    <label class="desCat">0NOTIFICACION.</label>
+                </div>
+            </div>      
+
+        </div>
+        
+        <footer>
+            <div class="divMenu">
+            <center>
+            <div class="con"> 
+                <ul>
+                    <a href="home.html" ><img src="home.png"></a>  
+                    <a href="contacto.html" ><img src="soporte.png"></a>    
+                    <a href="pp.html" ><img src="perfil.png"></a>      
+                </ul>
+            </div>
+            </center>
+        </div>
+        </footer>
+        
 </body>
 </html>
 
-
-
-
-<!-- <button onclick="most()">Mostrar Datos</button>
 
     

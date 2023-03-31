@@ -55,6 +55,7 @@ function saveData() {
             window.location.replace("home.html");
             //LOCAL STORAGE
             localStorage.setItem("nombre",user.name);
+            localStorage.setItem("correo",email);
         } else {
           alert("Credenciales inválidas");
         }
@@ -66,9 +67,6 @@ function saveData() {
     };
   }
 
-  function mostrar(){
-  var nombreLS = localStorage.getItem("nombre");
-  document.getElementById("mostrar").innerHTML = nombreLS;
-
-  
+  function openHorario(){
+    window.location.replace("horario.html");
   }
