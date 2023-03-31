@@ -58,7 +58,7 @@ body{
     font-weight: bold;
 }
 
-.correoReg{
+.loginEmail{
     outline: none;
     border-radius: 25px;
     width: 150px;
@@ -71,7 +71,7 @@ body{
     font-weight: bold;
 }
 
-.contraReg{
+.loginPassword{
     outline: none;
     border-radius: 25px;
     width: 150px;
@@ -106,7 +106,7 @@ body{
     color: white;
 }
 
-#btnReg{
+.btnIngresar{
     background-color: #1E90FF;
     border-radius: 20px;
     padding: 5px;
